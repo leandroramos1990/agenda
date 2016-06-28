@@ -1,0 +1,32 @@
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Editar contato</h4>
+            </div>
+            <div class="modal-body">
+                    <input type="hidden" id="modal-id">
+
+                    <div class="form-group">
+                        <label for="modal-name" class="control-label">Nome:</label>
+                        <input type="text" class="form-control" id="modal-name">
+                    </div>
+
+                <div class="form-group">
+                    <label for="modal-phone" class="control-label">Telfone:</label>
+                    <input type="text" class="form-control" id="modal-phone">
+                </div>
+
+                <div class="form-group">
+                    <label for="modal-email" class="control-label">Email:</label>
+                    <input type="text" class="form-control" id="modal-email">
+                </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" onclick="updateContactInService()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>

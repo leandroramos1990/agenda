@@ -1,0 +1,45 @@
+nav.navbar{
+	margin-top: 10px;
+}
+
+form {
+    padding: 15px;
+}
+
+form fieldset {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-contacts{
+	width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.add-contact label{
+	font-size: 15px;
+}
+
+.btn-floating{
+	float: right;
+	position: relative;
+}
+
+.btn-primary{
+	background-color: #26a69a !important;
+}
+
+.btn-danger {
+	background-color: #e74c3c !important;
+}
+
+.modal {
+    overflow:hidden !important;
+    max-height: 80% !important;
+    background: transparent !important;
+}
